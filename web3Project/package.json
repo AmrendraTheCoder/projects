@@ -1,0 +1,37 @@
+{
+  "name": "adaptive-yield-router",
+  "version": "1.0.0",
+  "description": "Automated yield optimization protocol that routes stablecoins to the best APY with user-defined guardrails",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "node": "hardhat node",
+    "frontend": "cd frontend && npm start",
+    "dev": "hardhat node & npm run frontend"
+  },
+  "keywords": [
+    "defi",
+    "yield-farming",
+    "yield-optimization",
+    "ethereum",
+    "smart-contracts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@typechain/hardhat": "^9.1.0",
+    "hardhat": "^2.19.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.5",
+    "chai": "^4.3.10",
+    "ethers": "^6.9.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
